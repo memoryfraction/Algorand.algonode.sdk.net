@@ -1,13 +1,8 @@
 ﻿using Algorand.algonode.sdk.net.Clients;
-using Algorand.algonode.sdk.net.Models;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace MultipleTiersArchitectureTemplate.Tests
+
+namespace Algorand.algonode.sdk.net.Tests
 {
     [TestClass]
     public class AlgoAccountTests
@@ -24,7 +19,7 @@ namespace MultipleTiersArchitectureTemplate.Tests
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
-                .AddUserSecrets<AlgoAssetTests>();
+                .AddUserSecrets<AlgoAccountTests>();
             var config = builder.Build();
 
             _apiKey = config["Configuration:ApiKey"];

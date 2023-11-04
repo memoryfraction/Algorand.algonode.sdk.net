@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>MultipleTiersArchitectureTemplate.Tests</RootNamespace>
+    <RootNamespace>Algorand.algonode.sdk.net.Tests</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Algorand.algonode.sdk.net\Algorand.algonode.sdk.net.csproj" />
     <ProjectReference Include="..\MultipleTiersArchitectureTemplate.BLL\Algorand.algonode.sdk.net.csproj" />
   </ItemGroup>
 

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace MultipleTiersArchitectureTemplate.BLL
+namespace Algorand.algonode.sdk.net
 {
     public class TestService : ITestService
     {

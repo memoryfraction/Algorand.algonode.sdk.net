@@ -4,7 +4,7 @@
 
 # 摘要
 
-本项目基于[Purestake.io](https://algonode.io/api/),用户可以通过调用C#类库，得到、操作Algorand节点信息。
+本项目基于[algonode.io](https://algonode.io/api/),用户可以通过调用C#类库，得到、操作Algorand节点信息。
 
 # 术语
 
@@ -53,7 +53,7 @@ UserSecret.json配置完毕后，单元测试才能正常运行。
 
 打开View -> TestExplorer。运行所有单元测试
 
-<img src="https://lh3.googleusercontent.com/GFSCIyCR6P5s7NfrGb-omgl2yyTNVIzfhPM-bRbhyeGRb2Snx_OXMIqZuIlHnDGsdUEMV9QrXEN5jX4Dn0nhkzbBQ5UAw6td1a-YiyB35gPRgDkZlnZG7weML2NGxLodGENmhC9UM6aJvChtbdrQ1N6hS2FilLgWoYX171f3JBLQO5IUCxlmx8Sb6w" title="" alt="" data-align="center">
+<img src="https://github.com/memoryfraction/Algorand.algonode.sdk.net/blob/main/resources/images/UnitTestCases.png?raw=true" title="" alt="" data-align="center">
 
 ## 4 常用案例
 
@@ -103,7 +103,7 @@ Assert.IsTrue(assetResponse.Response != null);
 
 # 小结
 
-本项目基于purestake.io开发了.NET Core 类库，C#使用者可以方便调用Algorand相关信息。
+本项目基于algonode.io开发了.NET Core 类库，C#使用者可以方便调用Algorand相关信息。
 
 # 关于作者
 
@@ -123,7 +123,7 @@ Badge验证链接:  [Economics of Blockchain and Digital Assets - Credly](https
 
 2 [如何在Algorand链上创建自己的Token？](https://www.youtube.com/watch?v=ryk-tKyZUpk)
 
-原创不易，您的反馈是持续创新的动力。如果我的工作对您有帮助，还请收藏本项目、转发、请作者喝咖啡。
+如果我的工作对您有帮助，还请收藏本项目、转发、请作者喝咖啡。
 
 Algo address: EFIRPOWUEZIOGEBSR47R5WOEFIKSDBPA5UJERXX75GIIP3JTPBAI5PC7I4
 
@@ -131,7 +131,7 @@ Algo address: EFIRPOWUEZIOGEBSR47R5WOEFIKSDBPA5UJERXX75GIIP3JTPBAI5PC7I4
 
 # Introduction
 
-An algorand sdk in .net core based on purestake.io.
+An algorand sdk in .net core based on algonode.io.
 
 # Terms
 
@@ -141,7 +141,6 @@ An algorand sdk in .net core based on purestake.io.
 The Algorand platform is developed by Algorand, Inc., located in Boston. The company was founded in 2017 by MIT computer science professor and Turing Award winner Silvio Mikkali. [5][6]
 Algorand's testnet opened to the public in April 2019 [7], and the mainnet opened in June 2019. [8]
 
-**Purestake**'s focus on building a broad range of products for limited networks has allowed us to develop deep subject matter expertise and deliver it to you as an easy-to-use service.
 
 **Algorand.sdk.net**, a cross-platform class library developed based on NetStandard and Net 6, users can use the C# language to directly obtain information on the algorand chain through simple steps. According to user feedback, Post operations may be added later.
 
@@ -180,7 +179,7 @@ Unit tests can only run properly after UserSecret.json is configured.
 
 Open View -> TestExplorer. run all unit tests
 
-<img src="https://lh3.googleusercontent.com/GFSCIyCR6P5s7NfrGb-omgl2yyTNVIzfhPM-bRbhyeGRb2Snx_OXMIqZuIlHnDGsdUEMV9QrXEN5jX4Dn0nhkzbBQ5UAw6td1a-YiyB35gPRgDkZlnZG7weML2NGxLodGENmhC9UM6aJvChtbdrQ1N6hS2FilLgWoYX171f3JBLQO5IUCxlmx8Sb6w" title="" alt="" data-align="center">
+<img src="https://github.com/memoryfraction/Algorand.algonode.sdk.net/blob/main/resources/images/UnitTestCases.png?raw=true" title="" alt="" data-align="center">
 
 # 4 Common cases
 
@@ -230,7 +229,7 @@ For more cases, see Algorand.sdk.Net.UnitTests Test Cases.
 
 # Summary
 
-This project has developed a .NET Core class library based on https://algonode.io/, and C# users can easily call Algorand related information.
+This project has developed a .NET Core class library based on https://algonode.io/api/, and C# users can easily call Algorand related information.
 
 # The Author
 
