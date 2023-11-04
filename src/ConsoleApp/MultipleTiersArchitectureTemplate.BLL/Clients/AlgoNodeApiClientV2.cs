@@ -25,7 +25,34 @@ namespace Algorand.algonode.sdk.net.Clients
         }
 
         #region Account
+        /// <summary>
+        /// v2/accounts/account-id
+        /// </summary>
+        /// <param name="address"></param>
+        /// <returns></returns>
+        public async Task<AlgoAccountAsset> GetAccountInformationAsync(string assetId, string address)
+        {
+            // Create a GET request
+            var request = new RestRequest($"/{_apiVersion}/accounts/{address}/assets/{assetId}", Method.Get);
 
+            // Execute the request and await the response
+            var response = await _client.ExecuteGetAsync(request);
+
+            AlgoAccountAsset account = new AlgoAccountAsset();
+            // Check the response status
+            if (response.IsSuccessful)
+            {
+                // Deserialize the response content into an Asset object
+                if ( !string.IsNullOrEmpty(response?.Content) && response?.Content?.Length > 0)
+                    account = JsonConvert.DeserializeObject<AlgoAccountAsset>(response.Content);
+
+                return account;
+            }
+            else
+            {
+                throw new Exception("Request failed: " + response.ErrorMessage);
+            }
+        }
 
 
         #endregion
@@ -36,7 +63,7 @@ namespace Algorand.algonode.sdk.net.Clients
         public async Task<Asset> GetAssetInformationAsync(string assetId)
         {
             // Create a GET request
-            var request = new RestRequest($"/v2/assets/{assetId}", Method.Get);
+            var request = new RestRequest($"/{_apiVersion}/assets/{assetId}", Method.Get);
 
             // Execute the request and await the response
             var response = await _client.ExecuteGetAsync(request);
@@ -46,8 +73,8 @@ namespace Algorand.algonode.sdk.net.Clients
             if (response.IsSuccessful)
             {
                 // Deserialize the response content into an Asset object
-                if (response.Content.Length > 0)
-                    asset = JsonConvert.DeserializeObject<Asset>(response.Content);
+                if (!string.IsNullOrEmpty(response?.Content) && response?.Content?.Length > 0)
+                    asset = JsonConvert.DeserializeObject<Asset>(response?.Content);
 
                 return asset;
             }
