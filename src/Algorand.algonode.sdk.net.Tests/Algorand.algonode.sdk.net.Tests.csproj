@@ -24,7 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Algorand.algonode.sdk.net\Algorand.algonode.sdk.net.csproj" />
-    <ProjectReference Include="..\MultipleTiersArchitectureTemplate.BLL\Algorand.algonode.sdk.net.csproj" />
   </ItemGroup>
 
   <ItemGroup>

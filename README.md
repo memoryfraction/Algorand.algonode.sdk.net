@@ -82,7 +82,7 @@ Assert.IsTrue(assetResponse.Response != null);
 
 #Response Json
 {
-  "index": 721366337,
+  "index": ,
   "params": {
     "clawback": "",
     "creator": "",
@@ -90,7 +90,7 @@ Assert.IsTrue(assetResponse.Response != null);
     "default-frozen": false,
     "freeze": "",
     "manager": "",
-    "name": "LeaderFundOne",
+    "name": "",
     "name-b64": "TGVhZGVyRnVuZE9uZQ==",
     "reserve": "",
     "total": 10000000000000,
@@ -208,7 +208,7 @@ Assert.IsTrue(assetResponse.Response != null);
 
 #Response Json
 {
-  "index": 721366337,
+  "index": ,
   "params": {
     "clawback": "",
     "creator": "",
