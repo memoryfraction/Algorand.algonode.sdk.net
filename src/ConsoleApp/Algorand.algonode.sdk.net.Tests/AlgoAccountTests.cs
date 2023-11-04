@@ -7,7 +7,6 @@ namespace Algorand.algonode.sdk.net.Tests
     [TestClass]
     public class AlgoAccountTests
     {
-        string _apiKey = "";
         string _testAlgoAddress = "";
         string _lfoAssetId = "";
         string _reserveAddress = "";
@@ -22,7 +21,6 @@ namespace Algorand.algonode.sdk.net.Tests
                 .AddUserSecrets<AlgoAccountTests>();
             var config = builder.Build();
 
-            _apiKey = config["Configuration:ApiKey"];
             _testAlgoAddress = config["Configuration:TestAlgoAddress"];
             _lfoAssetId = config["Configuration:LFOAssetId"];
             _reserveAddress = config["Configuration:ReserveAddress"];

@@ -66,8 +66,8 @@ Assert.IsTrue(account.AssetHolding.Amount > 1);
 #Response Json
 {
   "asset-holding": {
-    "amount": 1298815227,
-    "asset-id": 721366337,
+    "amount": ,
+    "asset-id": ,
     "is-frozen": false  },
   "round": 33351743
 }
@@ -84,17 +84,17 @@ Assert.IsTrue(assetResponse.Response != null);
 {
   "index": 721366337,
   "params": {
-    "clawback": "FYVAOJZDQFCRTW6J4HRD6N3ZIHROQOA75KEBEUSADZPLNFNHDS5MHTDG5Y",
-    "creator": "FYVAOJZDQFCRTW6J4HRD6N3ZIHROQOA75KEBEUSADZPLNFNHDS5MHTDG5Y",
+    "clawback": "",
+    "creator": "",
     "decimals": 4,
     "default-frozen": false,
-    "freeze": "FYVAOJZDQFCRTW6J4HRD6N3ZIHROQOA75KEBEUSADZPLNFNHDS5MHTDG5Y",
-    "manager": "FYVAOJZDQFCRTW6J4HRD6N3ZIHROQOA75KEBEUSADZPLNFNHDS5MHTDG5Y",
+    "freeze": "",
+    "manager": "",
     "name": "LeaderFundOne",
     "name-b64": "TGVhZGVyRnVuZE9uZQ==",
-    "reserve": "FYVAOJZDQFCRTW6J4HRD6N3ZIHROQOA75KEBEUSADZPLNFNHDS5MHTDG5Y",
+    "reserve": "",
     "total": 10000000000000,
-    "unit-name": "LFO",
+    "unit-name": "",
     "unit-name-b64": "TEZP"  }
 }
 ```
@@ -192,10 +192,10 @@ Assert.IsTrue(account.AssetHolding.Amount > 1);
 #Response Json
 {
   "asset-holding": {
-    "amount": 1298815227,
-    "asset-id": 721366337,
-    "is-frozen": false  },
-  "round": 33351743
+    "amount": ,
+    "asset-id": ,
+    "is-frozen":   },
+  "round": 
 }
 ```
 
@@ -210,17 +210,17 @@ Assert.IsTrue(assetResponse.Response != null);
 {
   "index": 721366337,
   "params": {
-    "clawback": "FYVAOJZDQFCRTW6J4HRD6N3ZIHROQOA75KEBEUSADZPLNFNHDS5MHTDG5Y",
-    "creator": "FYVAOJZDQFCRTW6J4HRD6N3ZIHROQOA75KEBEUSADZPLNFNHDS5MHTDG5Y",
+    "clawback": "",
+    "creator": "",
     "decimals": 4,
     "default-frozen": false,
-    "freeze": "FYVAOJZDQFCRTW6J4HRD6N3ZIHROQOA75KEBEUSADZPLNFNHDS5MHTDG5Y",
-    "manager": "FYVAOJZDQFCRTW6J4HRD6N3ZIHROQOA75KEBEUSADZPLNFNHDS5MHTDG5Y",
-    "name": "LeaderFundOne",
+    "freeze": "",
+    "manager": "",
+    "name": "",
     "name-b64": "TGVhZGVyRnVuZE9uZQ==",
-    "reserve": "FYVAOJZDQFCRTW6J4HRD6N3ZIHROQOA75KEBEUSADZPLNFNHDS5MHTDG5Y",
+    "reserve": "",
     "total": 10000000000000,
-    "unit-name": "LFO",
+    "unit-name": "",
     "unit-name-b64": "TEZP"  }
 }
 ```
