@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>MultipleTiersArchitectureTemplate.Console</RootNamespace>
+    <RootNamespace>Algorand.algonode.sdk.net.Console</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -17,9 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MultipleTiersArchitectureTemplate.BLL\MultipleTiersArchitectureTemplate.BLL.csproj" />
-    <ProjectReference Include="..\MultipleTiersArchitectureTemplate.DAL\MultipleTiersArchitectureTemplate.DAL.csproj" />
-    <ProjectReference Include="..\MultipleTiersArchitectureTemplate.Model\MultipleTiersArchitectureTemplate.Model.csproj" />
+    <ProjectReference Include="..\MultipleTiersArchitectureTemplate.BLL\Algorand.algonode.sdk.net.csproj" />
   </ItemGroup>
 
   <ItemGroup>
