@@ -43,15 +43,5 @@ namespace MultipleTiersArchitectureTemplate.Tests
             Assert.IsTrue(account.AssetHolding.Amount > 1);
         }
 
-        //[TestMethod]
-        //public async Task GetAccountAsset_Should_Work()
-        //{
-        //    var lfoAccountAssetResponse = await _clientV2.GetAccountAssetAsync(_lfoAssetId, _testAlgoAddress);
-        //    Assert.IsTrue(lfoAccountAssetResponse.Succeed);
-        //    Assert.IsNotNull(lfoAccountAssetResponse.Response);
-        //}
-
-
-
     }
 }
